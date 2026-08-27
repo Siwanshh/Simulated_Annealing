@@ -1,103 +1,111 @@
 import json
-import time
-import urllib.request
-from places import PLACES
 import os
+import urllib.parse
+import urllib.request
+
+from places import PLACES
 
 
-GRAPH_PATH = os.path.join(os.path.dirname(__file__), "OUTPUT", "tsp_graph.json")
-print(GRAPH_PATH)
+GRAPH_PATH = os.path.join(
+    os.path.dirname(__file__),
+    "OUTPUT",
+    "tsp_graph.json"
+)
 
-OSRM_URL = (
-    "http://router.project-osrm.org/route/v1/driving/"
-    "{lon1},{lat1};{lon2},{lat2}?overview=false"
+OSRM_TABLE_URL = (
+    "https://router.project-osrm.org/table/v1/driving/"
+    "{coordinates}?annotations=distance,duration"
 )
 
 
-def road_distance(a, b):
+def build_tsp_graph():
+    cities = list(PLACES.keys())
 
-    lat1, lon1 = PLACES[a]
-    lat2, lon2 = PLACES[b]
-
-    url = OSRM_URL.format(
-        lon1=lon1,
-        lat1=lat1,
-        lon2=lon2,
-        lat2=lat2
+    # OSRM expects: lon,lat;lon,lat;...
+    coordinates = ";".join(
+        f"{lon},{lat}"
+        for lat, lon in PLACES.values()
     )
 
-    with urllib.request.urlopen(url, timeout=10) as resp:
-        data = json.loads(resp.read())
+    url = OSRM_TABLE_URL.format(
+        coordinates=urllib.parse.quote(coordinates, safe=",;")
+    )
 
-    route = data["routes"][0]
+    print("Requesting OSRM distance matrix...")
+    print(f"Locations: {len(cities)}")
 
-    km = round(route["distance"] / 1000, 2)
-    mins = round(route["duration"] / 60, 1)
+    with urllib.request.urlopen(url, timeout=30) as response:
+        data = json.loads(response.read())
 
-    return km, mins
+    if data.get("code") != "Ok":
+        raise RuntimeError(
+            f"OSRM request failed: {data.get('message', data.get('code'))}"
+        )
 
-
-def build_tsp_graph():
-
-    cities = list(PLACES.keys())
+    distances = data["distances"]
+    durations = data["durations"]
 
     graph = {
         city: {}
         for city in cities
     }
 
-    total_pairs = len(cities) * (len(cities) - 1) // 2
+    for i, city_a in enumerate(cities):
+        for j, city_b in enumerate(cities):
 
-    pair_number = 0
+            if i == j:
+                continue
 
-    for i in range(len(cities)):
-
-        for j in range(i + 1, len(cities)):
-
-            a = cities[i]
-            b = cities[j]
-
-            pair_number += 1
-
-            print(
-                f"[{pair_number}/{total_pairs}] "
-                f"{a} <-> {b}"
+            distance_km = round(
+                distances[i][j] / 1000,
+                2
             )
 
-            km, mins = road_distance(a, b)
-
-            graph[a][b] = {
-                "km": km,
-                "min": mins
-            }
-
-            graph[b][a] = {
-                "km": km,
-                "min": mins
-            }
-
-            print(
-                f"    {km} km ({mins} min)"
+            duration_min = round(
+                durations[i][j] / 60,
+                1
             )
 
-            # Don't hammer public OSRM server
-            time.sleep(1)
+            graph[city_a][city_b] = {
+                "km": distance_km,
+                "min": duration_min
+            }
 
-    os.makedirs(os.path.dirname(GRAPH_PATH), exist_ok=True)
+    os.makedirs(
+        os.path.dirname(GRAPH_PATH),
+        exist_ok=True
+    )
 
     with open(GRAPH_PATH, "w") as f:
-        json.dump(graph, f, indent=2)
-
-    print("\nTSP graph saved to tsp_graph.json")
-
-   
-
-if __name__ == '__main__':
-    if os.path.exists(GRAPH_PATH):
-        print(
-            "The graph has already been created, delete "
-            "OUTPUT/tsp_graph.json first to recreate graph."
+        json.dump(
+            graph,
+            f,
+            indent=2
         )
+
+    print(
+        f"\nTSP graph saved to:\n{GRAPH_PATH}"
+    )
+
+    print(
+        f"Created directed matrix: "
+        f"{len(cities)} × {len(cities)}"
+    )
+
+
+if __name__ == "__main__":
+
+    if os.path.exists(GRAPH_PATH):
+
+        print(
+            "The graph has already been created."
+        )
+        print(
+            "Delete OUTPUT/tsp_graph.json "
+            "first to recreate it."
+        )
+
     else:
-        print("Building the graph...")
+
+        print("Building TSP graph...")
         build_tsp_graph()

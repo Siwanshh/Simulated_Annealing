@@ -26,7 +26,8 @@ def main():
         initial_temperature=100,
         cooling_rate=0.995,
         minimum_temperature=0.001,
-        iterations_per_temperature=100
+        iterations_per_temperature=100,
+        runs=30
     )
 
     print("SA finished.")

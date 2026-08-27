@@ -1,9 +1,8 @@
-
-
 import json
 import random
 import math
 import os
+
 from build_graph import GRAPH_PATH, build_tsp_graph
 
 
@@ -12,7 +11,6 @@ if not os.path.exists(GRAPH_PATH):
 
 with open(GRAPH_PATH, "r") as f:
     graph = json.load(f)
-
 
 cities = list(graph.keys())
 
@@ -54,46 +52,110 @@ def simulated_annealing(
     initial_temperature=100,
     cooling_rate=0.995,
     minimum_temperature=0.001,
-    iterations_per_temperature=100
+    iterations_per_temperature=100,
+    runs=30
 ):
+    overall_best_route = None
+    overall_best_distance = float("inf")
+    overall_best_history = None
 
-    current_route = create_initial_route(start)
-    current_distance = route_distance(current_route)
+    run_results = []
 
-    best_route = current_route.copy()
-    best_distance = current_distance
+    for i in range(runs):
 
-    temperature = initial_temperature
-    history = []
+        current_route = create_initial_route(start)
+        current_distance = route_distance(current_route)
 
-    while temperature > minimum_temperature:
+        best_route = current_route.copy()
+        best_distance = current_distance
 
-        for _ in range(iterations_per_temperature):
+        temperature = initial_temperature
+        history = []
 
-            new_route = create_neighbor(current_route)
-            new_distance = route_distance(new_route)
+        while temperature > minimum_temperature:
 
-            delta = new_distance - current_distance
+            for _ in range(iterations_per_temperature):
 
-            if delta < 0:
-                current_route = new_route
-                current_distance = new_distance
+                new_route = create_neighbor(current_route)
+                new_distance = route_distance(new_route)
 
-            else:
-                probability = math.exp(
-                    -delta / temperature
-                )
+                delta = new_distance - current_distance
 
-                if random.random() < probability:
+                if delta < 0:
                     current_route = new_route
                     current_distance = new_distance
 
-            if current_distance < best_distance:
-                best_route = current_route.copy()
-                best_distance = current_distance
+                else:
+                    probability = math.exp(
+                        -delta / temperature
+                    )
 
-            history.append(best_distance)
+                    if random.random() < probability:
+                        current_route = new_route
+                        current_distance = new_distance
 
-        temperature *= cooling_rate
+                if current_distance < best_distance:
+                    best_route = current_route.copy()
+                    best_distance = current_distance
 
-    return best_route, best_distance, history
+                history.append(best_distance)
+
+            temperature *= cooling_rate
+
+        # Store this run's result
+        run_results.append({
+            "run": i + 1,
+            "best_route": best_route,
+            "best_distance_km": round(best_distance, 2)
+        })
+
+        print(
+            f"Run {i + 1}/{runs}: "
+            f"{best_distance:.2f} km"
+        )
+
+        # Keep the best result among all runs
+        if best_distance < overall_best_distance:
+            overall_best_route = best_route.copy()
+            overall_best_distance = best_distance
+            overall_best_history = history
+
+    # Save all run results
+    output_dir = os.path.join(
+        os.path.dirname(GRAPH_PATH)
+    )
+
+    os.makedirs(output_dir, exist_ok=True)
+
+    results_path = os.path.join(
+        output_dir,
+        "sa_runs.json"
+    )
+
+    with open(results_path, "w") as f:
+        json.dump(
+            run_results,
+            f,
+            indent=2
+        )
+
+    print(
+        f"\nAll run results saved to: "
+        f"{results_path}"
+    )
+
+    print(
+        f"Overall best distance: "
+        f"{overall_best_distance:.2f} km"
+    )
+
+    print(
+        "Overall best route: "
+        + " → ".join(overall_best_route)
+    )
+
+    return (
+        overall_best_route,
+        overall_best_distance,
+        overall_best_history
+    )
