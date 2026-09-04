@@ -1,118 +1,158 @@
 {
   "Kupondole": {
     "Maitighar": {
-      "km": 1.12,
-      "min": 1.3
+      "km": 1.81,
+      "min": 2.3
     },
     "Babarmahal": {
       "km": 2.53,
       "min": 3.5
     },
     "Tinkune": {
-      "km": 4.3,
-      "min": 5.8
+      "km": 3.94,
+      "min": 5.2
     },
     "Balkumari": {
-      "km": 4.8,
-      "min": 5.4
+      "km": 3.69,
+      "min": 6.0
     },
     "Gwarko": {
-      "km": 4.0,
-      "min": 4.9
+      "km": 3.43,
+      "min": 3.9
     },
     "Koteshwor": {
       "km": 6.6,
       "min": 7.2
     },
-    "Baneshwor": {
-      "km": 2.66,
-      "min": 3.7
+    "New Baneshwor": {
+      "km": 2.75,
+      "min": 4.5
     },
     "Satdobato": {
-      "km": 4.11,
-      "min": 4.7
+      "km": 4.66,
+      "min": 5.0
     },
     "Kumaripati": {
-      "km": 2.75,
-      "min": 2.6
+      "km": 2.58,
+      "min": 2.5
     },
     "Pulchowk": {
-      "km": 1.07,
+      "km": 1.16,
       "min": 1.1
     },
     "Jawalakhel": {
-      "km": 2.01,
-      "min": 2.0
+      "km": 1.88,
+      "min": 1.8
     },
     "Thamel": {
-      "km": 4.32,
-      "min": 5.6
+      "km": 3.4,
+      "min": 4.4
     },
     "Kalanki": {
-      "km": 7.85,
-      "min": 7.1
+      "km": 8.12,
+      "min": 6.5
     },
     "Chabahil": {
-      "km": 5.83,
+      "km": 5.82,
+      "min": 6.8
+    },
+    "Kirtipur": {
+      "km": 7.59,
+      "min": 7.5
+    },
+    "Tripureshwor": {
+      "km": 0.96,
+      "min": 1.0
+    },
+    "Lazimpat": {
+      "km": 4.48,
+      "min": 5.6
+    },
+    "Maharajgunj": {
+      "km": 7.92,
+      "min": 8.5
+    },
+    "Balaju": {
+      "km": 6.21,
       "min": 6.9
     }
   },
   "Maitighar": {
     "Kupondole": {
-      "km": 0.84,
+      "km": 0.91,
       "min": 0.8
     },
     "Babarmahal": {
-      "km": 2.64,
-      "min": 3.6
+      "km": 1.71,
+      "min": 2.6
     },
     "Tinkune": {
-      "km": 4.41,
-      "min": 6.0
+      "km": 3.13,
+      "min": 4.4
     },
     "Balkumari": {
-      "km": 3.83,
-      "min": 5.9
+      "km": 4.01,
+      "min": 5.8
     },
     "Gwarko": {
-      "km": 4.85,
-      "min": 5.6
+      "km": 4.34,
+      "min": 4.7
     },
     "Koteshwor": {
-      "km": 7.45,
-      "min": 7.9
+      "km": 4.98,
+      "min": 7.3
     },
-    "Baneshwor": {
-      "km": 2.78,
-      "min": 3.8
+    "New Baneshwor": {
+      "km": 1.93,
+      "min": 3.6
     },
     "Satdobato": {
-      "km": 4.96,
-      "min": 5.4
+      "km": 5.58,
+      "min": 5.8
     },
     "Kumaripati": {
-      "km": 3.59,
-      "min": 3.4
+      "km": 3.5,
+      "min": 3.2
     },
     "Pulchowk": {
-      "km": 1.91,
+      "km": 2.07,
       "min": 1.9
     },
     "Jawalakhel": {
-      "km": 2.85,
-      "min": 2.7
+      "km": 2.8,
+      "min": 2.6
     },
     "Thamel": {
-      "km": 4.46,
-      "min": 5.6
+      "km": 3.61,
+      "min": 4.5
     },
     "Kalanki": {
-      "km": 6.12,
-      "min": 7.6
+      "km": 6.46,
+      "min": 7.1
     },
     "Chabahil": {
-      "km": 5.95,
-      "min": 7.1
+      "km": 5.0,
+      "min": 6.0
+    },
+    "Kirtipur": {
+      "km": 5.94,
+      "min": 8.1
+    },
+    "Tripureshwor": {
+      "km": 1.17,
+      "min": 1.1
+    },
+    "Lazimpat": {
+      "km": 4.7,
+      "min": 5.7
+    },
+    "Maharajgunj": {
+      "km": 6.37,
+      "min": 8.3
+    },
+    "Balaju": {
+      "km": 6.42,
+      "min": 6.9
     }
   },
   "Babarmahal": {
@@ -121,230 +161,310 @@
       "min": 1.4
     },
     "Maitighar": {
-      "km": 0.48,
-      "min": 0.9
+      "km": 0.4,
+      "min": 0.7
     },
     "Tinkune": {
-      "km": 2.94,
-      "min": 4.3
+      "km": 2.59,
+      "min": 3.7
     },
     "Balkumari": {
-      "km": 3.3,
-      "min": 4.7
+      "km": 3.47,
+      "min": 5.2
     },
     "Gwarko": {
-      "km": 5.32,
-      "min": 6.3
+      "km": 4.74,
+      "min": 5.4
     },
     "Koteshwor": {
       "km": 4.44,
       "min": 6.6
     },
-    "Baneshwor": {
-      "km": 1.31,
-      "min": 2.1
+    "New Baneshwor": {
+      "km": 1.69,
+      "min": 3.2
     },
     "Satdobato": {
-      "km": 5.43,
-      "min": 6.1
+      "km": 5.98,
+      "min": 6.5
     },
     "Kumaripati": {
-      "km": 4.06,
-      "min": 4.1
+      "km": 3.9,
+      "min": 3.9
     },
     "Pulchowk": {
-      "km": 2.38,
+      "km": 2.47,
       "min": 2.5
     },
     "Jawalakhel": {
-      "km": 3.32,
-      "min": 3.4
+      "km": 3.2,
+      "min": 3.3
     },
     "Thamel": {
-      "km": 4.93,
-      "min": 6.3
+      "km": 4.01,
+      "min": 5.2
     },
     "Kalanki": {
-      "km": 6.59,
-      "min": 8.3
+      "km": 6.86,
+      "min": 7.8
     },
     "Chabahil": {
-      "km": 4.76,
-      "min": 5.7
+      "km": 4.75,
+      "min": 5.6
+    },
+    "Kirtipur": {
+      "km": 6.34,
+      "min": 8.7
+    },
+    "Tripureshwor": {
+      "km": 1.57,
+      "min": 1.7
+    },
+    "Lazimpat": {
+      "km": 5.09,
+      "min": 6.4
+    },
+    "Maharajgunj": {
+      "km": 7.62,
+      "min": 8.6
+    },
+    "Balaju": {
+      "km": 6.82,
+      "min": 7.6
     }
   },
   "Tinkune": {
     "Kupondole": {
-      "km": 4.2,
+      "km": 4.24,
       "min": 5.1
     },
     "Maitighar": {
-      "km": 3.37,
-      "min": 4.5
+      "km": 3.33,
+      "min": 4.3
     },
     "Babarmahal": {
-      "km": 2.87,
+      "km": 2.92,
       "min": 3.9
     },
     "Balkumari": {
-      "km": 1.75,
-      "min": 2.3
+      "km": 1.91,
+      "min": 2.8
     },
     "Gwarko": {
-      "km": 4.8,
-      "min": 4.6
+      "km": 3.43,
+      "min": 4.4
     },
     "Koteshwor": {
-      "km": 1.83,
-      "min": 2.7
+      "km": 1.85,
+      "min": 2.9
     },
-    "Baneshwor": {
-      "km": 1.64,
-      "min": 1.8
+    "New Baneshwor": {
+      "km": 2.1,
+      "min": 2.9
     },
     "Satdobato": {
-      "km": 4.13,
-      "min": 4.0
+      "km": 4.54,
+      "min": 4.6
     },
     "Kumaripati": {
-      "km": 5.42,
-      "min": 5.5
+      "km": 5.61,
+      "min": 5.9
     },
     "Pulchowk": {
-      "km": 5.26,
+      "km": 5.41,
       "min": 6.2
     },
     "Jawalakhel": {
-      "km": 6.8,
-      "min": 6.2
+      "km": 6.35,
+      "min": 6.6
     },
     "Thamel": {
-      "km": 7.91,
-      "min": 7.7
+      "km": 7.34,
+      "min": 7.0
     },
     "Kalanki": {
-      "km": 11.14,
-      "min": 9.8
+      "km": 11.44,
+      "min": 9.5
     },
     "Chabahil": {
-      "km": 4.54,
-      "min": 3.3
+      "km": 4.89,
+      "min": 3.8
+    },
+    "Kirtipur": {
+      "km": 10.92,
+      "min": 10.4
+    },
+    "Tripureshwor": {
+      "km": 4.5,
+      "min": 5.4
+    },
+    "Lazimpat": {
+      "km": 8.43,
+      "min": 8.3
+    },
+    "Maharajgunj": {
+      "km": 7.76,
+      "min": 6.8
+    },
+    "Balaju": {
+      "km": 10.15,
+      "min": 9.6
     }
   },
   "Balkumari": {
     "Kupondole": {
-      "km": 3.65,
-      "min": 5.7
+      "km": 3.83,
+      "min": 6.1
     },
     "Maitighar": {
-      "km": 4.4,
-      "min": 6.0
+      "km": 4.49,
+      "min": 6.1
     },
     "Babarmahal": {
-      "km": 3.92,
-      "min": 5.5
+      "km": 4.09,
+      "min": 5.9
     },
     "Tinkune": {
-      "km": 1.7,
-      "min": 2.4
-    },
-    "Gwarko": {
-      "km": 2.37,
-      "min": 3.8
-    },
-    "Koteshwor": {
-      "km": 2.11,
-      "min": 2.9
-    },
-    "Baneshwor": {
-      "km": 2.68,
-      "min": 3.2
-    },
-    "Satdobato": {
-      "km": 2.62,
+      "km": 3.1,
       "min": 3.7
     },
+    "Gwarko": {
+      "km": 1.73,
+      "min": 2.3
+    },
+    "Koteshwor": {
+      "km": 2.44,
+      "min": 4.0
+    },
+    "New Baneshwor": {
+      "km": 3.28,
+      "min": 4.8
+    },
+    "Satdobato": {
+      "km": 2.86,
+      "min": 3.9
+    },
     "Kumaripati": {
-      "km": 2.93,
+      "km": 2.94,
       "min": 4.1
     },
     "Pulchowk": {
-      "km": 4.89,
-      "min": 5.9
+      "km": 4.58,
+      "min": 5.7
     },
     "Jawalakhel": {
-      "km": 3.97,
-      "min": 5.1
+      "km": 3.68,
+      "min": 4.8
     },
     "Thamel": {
-      "km": 9.6,
-      "min": 10.0
+      "km": 8.32,
+      "min": 9.9
     },
     "Kalanki": {
-      "km": 9.63,
-      "min": 9.5
+      "km": 9.74,
+      "min": 8.8
     },
     "Chabahil": {
-      "km": 6.24,
-      "min": 5.7
+      "km": 6.34,
+      "min": 7.2
+    },
+    "Kirtipur": {
+      "km": 9.22,
+      "min": 9.8
+    },
+    "Tripureshwor": {
+      "km": 4.29,
+      "min": 6.5
+    },
+    "Lazimpat": {
+      "km": 7.82,
+      "min": 11.1
+    },
+    "Maharajgunj": {
+      "km": 9.21,
+      "min": 10.2
+    },
+    "Balaju": {
+      "km": 9.54,
+      "min": 12.4
     }
   },
   "Gwarko": {
     "Kupondole": {
-      "km": 4.76,
-      "min": 5.7
-    },
-    "Maitighar": {
-      "km": 5.88,
-      "min": 7.0
-    },
-    "Babarmahal": {
-      "km": 5.87,
-      "min": 6.8
-    },
-    "Tinkune": {
-      "km": 3.34,
-      "min": 3.5
-    },
-    "Balkumari": {
-      "km": 1.96,
-      "min": 2.2
-    },
-    "Koteshwor": {
-      "km": 3.76,
-      "min": 4.0
-    },
-    "Baneshwor": {
-      "km": 4.64,
+      "km": 3.98,
       "min": 4.7
     },
-    "Satdobato": {
-      "km": 1.69,
-      "min": 2.6
+    "Maitighar": {
+      "km": 5.79,
+      "min": 7.1
     },
-    "Kumaripati": {
-      "km": 1.95,
-      "min": 3.0
+    "Babarmahal": {
+      "km": 5.92,
+      "min": 7.2
     },
-    "Pulchowk": {
-      "km": 3.91,
+    "Tinkune": {
+      "km": 4.13,
       "min": 4.8
     },
+    "Balkumari": {
+      "km": 2.33,
+      "min": 3.5
+    },
+    "Koteshwor": {
+      "km": 3.81,
+      "min": 4.5
+    },
+    "New Baneshwor": {
+      "km": 5.1,
+      "min": 6.2
+    },
+    "Satdobato": {
+      "km": 2.13,
+      "min": 3.4
+    },
+    "Kumaripati": {
+      "km": 1.33,
+      "min": 2.2
+    },
+    "Pulchowk": {
+      "km": 2.98,
+      "min": 3.9
+    },
     "Jawalakhel": {
-      "km": 2.99,
-      "min": 4.0
+      "km": 2.08,
+      "min": 2.9
     },
     "Thamel": {
-      "km": 11.25,
-      "min": 11.1
+      "km": 7.38,
+      "min": 9.2
     },
     "Kalanki": {
-      "km": 8.7,
-      "min": 8.5
+      "km": 8.31,
+      "min": 7.6
     },
     "Chabahil": {
-      "km": 7.89,
-      "min": 6.8
+      "km": 7.93,
+      "min": 7.2
+    },
+    "Kirtipur": {
+      "km": 7.79,
+      "min": 8.6
+    },
+    "Tripureshwor": {
+      "km": 4.94,
+      "min": 5.7
+    },
+    "Lazimpat": {
+      "km": 8.46,
+      "min": 10.3
+    },
+    "Maharajgunj": {
+      "km": 10.8,
+      "min": 10.2
+    },
+    "Balaju": {
+      "km": 13.52,
+      "min": 11.5
     }
   },
   "Koteshwor": {
@@ -353,520 +473,1090 @@
       "min": 5.6
     },
     "Maitighar": {
-      "km": 3.81,
-      "min": 5.0
+      "km": 3.73,
+      "min": 4.8
     },
     "Babarmahal": {
       "km": 3.32,
       "min": 4.4
     },
     "Tinkune": {
-      "km": 0.79,
-      "min": 1.1
+      "km": 1.53,
+      "min": 2.0
     },
     "Balkumari": {
-      "km": 1.5,
-      "min": 2.3
+      "km": 1.64,
+      "min": 2.6
     },
     "Gwarko": {
-      "km": 4.55,
-      "min": 4.6
+      "km": 3.16,
+      "min": 4.2
     },
-    "Baneshwor": {
-      "km": 2.08,
-      "min": 2.3
+    "New Baneshwor": {
+      "km": 2.5,
+      "min": 3.4
     },
     "Satdobato": {
-      "km": 3.88,
-      "min": 4.0
+      "km": 4.27,
+      "min": 4.4
     },
     "Kumaripati": {
-      "km": 5.16,
-      "min": 5.5
+      "km": 5.33,
+      "min": 5.6
     },
     "Pulchowk": {
-      "km": 5.71,
+      "km": 5.8,
       "min": 6.7
     },
     "Jawalakhel": {
-      "km": 6.55,
-      "min": 6.1
+      "km": 6.08,
+      "min": 6.3
     },
     "Thamel": {
-      "km": 8.7,
-      "min": 8.8
-    },
-    "Kalanki": {
-      "km": 10.89,
-      "min": 9.7
-    },
-    "Chabahil": {
-      "km": 5.33,
-      "min": 4.4
-    }
-  },
-  "Baneshwor": {
-    "Kupondole": {
-      "km": 2.56,
-      "min": 3.3
-    },
-    "Maitighar": {
-      "km": 1.73,
-      "min": 2.7
-    },
-    "Babarmahal": {
-      "km": 1.24,
-      "min": 2.3
-    },
-    "Tinkune": {
-      "km": 1.66,
-      "min": 2.2
-    },
-    "Balkumari": {
-      "km": 2.54,
-      "min": 3.2
-    },
-    "Gwarko": {
-      "km": 6.12,
-      "min": 6.4
-    },
-    "Koteshwor": {
-      "km": 3.15,
-      "min": 4.5
-    },
-    "Satdobato": {
-      "km": 5.46,
-      "min": 5.9
-    },
-    "Kumaripati": {
-      "km": 5.31,
-      "min": 5.9
-    },
-    "Pulchowk": {
-      "km": 3.63,
-      "min": 4.4
-    },
-    "Jawalakhel": {
-      "km": 4.57,
-      "min": 5.2
-    },
-    "Thamel": {
-      "km": 6.38,
+      "km": 7.78,
       "min": 7.5
     },
     "Kalanki": {
-      "km": 7.84,
-      "min": 10.1
+      "km": 11.17,
+      "min": 9.2
     },
     "Chabahil": {
-      "km": 3.5,
+      "km": 5.33,
+      "min": 4.3
+    },
+    "Kirtipur": {
+      "km": 10.64,
+      "min": 10.2
+    },
+    "Tripureshwor": {
+      "km": 4.89,
+      "min": 5.9
+    },
+    "Lazimpat": {
+      "km": 8.86,
+      "min": 8.8
+    },
+    "Maharajgunj": {
+      "km": 8.2,
+      "min": 7.4
+    },
+    "Balaju": {
+      "km": 10.59,
+      "min": 10.1
+    }
+  },
+  "New Baneshwor": {
+    "Kupondole": {
+      "km": 2.87,
+      "min": 4.4
+    },
+    "Maitighar": {
+      "km": 1.95,
       "min": 3.7
+    },
+    "Babarmahal": {
+      "km": 1.54,
+      "min": 3.4
+    },
+    "Tinkune": {
+      "km": 1.59,
+      "min": 2.7
+    },
+    "Balkumari": {
+      "km": 3.02,
+      "min": 4.8
+    },
+    "Gwarko": {
+      "km": 3.57,
+      "min": 6.8
+    },
+    "Koteshwor": {
+      "km": 3.44,
+      "min": 5.6
+    },
+    "Satdobato": {
+      "km": 6.13,
+      "min": 7.3
+    },
+    "Kumaripati": {
+      "km": 5.45,
+      "min": 6.9
+    },
+    "Pulchowk": {
+      "km": 4.03,
+      "min": 5.5
+    },
+    "Jawalakhel": {
+      "km": 4.75,
+      "min": 6.3
+    },
+    "Thamel": {
+      "km": 5.38,
+      "min": 6.8
+    },
+    "Kalanki": {
+      "km": 8.42,
+      "min": 10.8
+    },
+    "Chabahil": {
+      "km": 3.41,
+      "min": 4.1
+    },
+    "Kirtipur": {
+      "km": 7.89,
+      "min": 11.7
+    },
+    "Tripureshwor": {
+      "km": 3.12,
+      "min": 4.7
+    },
+    "Lazimpat": {
+      "km": 6.46,
+      "min": 8.1
+    },
+    "Maharajgunj": {
+      "km": 6.27,
+      "min": 7.1
+    },
+    "Balaju": {
+      "km": 8.19,
+      "min": 9.4
     }
   },
   "Satdobato": {
     "Kupondole": {
-      "km": 4.18,
-      "min": 4.7
+      "km": 4.79,
+      "min": 4.6
     },
     "Maitighar": {
-      "km": 5.3,
-      "min": 6.0
+      "km": 6.59,
+      "min": 7.0
     },
     "Babarmahal": {
-      "km": 6.64,
-      "min": 8.0
+      "km": 6.63,
+      "min": 7.7
     },
     "Tinkune": {
-      "km": 4.11,
-      "min": 4.7
+      "km": 4.84,
+      "min": 5.3
     },
     "Balkumari": {
-      "km": 2.73,
-      "min": 3.4
+      "km": 3.05,
+      "min": 4.0
     },
     "Gwarko": {
-      "km": 0.77,
-      "min": 1.2
+      "km": 1.31,
+      "min": 2.2
     },
     "Koteshwor": {
-      "km": 4.53,
-      "min": 5.2
+      "km": 4.52,
+      "min": 5.0
     },
-    "Baneshwor": {
-      "km": 5.41,
-      "min": 5.9
+    "New Baneshwor": {
+      "km": 5.81,
+      "min": 6.7
     },
     "Kumaripati": {
-      "km": 1.37,
+      "km": 1.55,
       "min": 2.1
     },
     "Pulchowk": {
-      "km": 3.33,
-      "min": 3.9
+      "km": 3.78,
+      "min": 3.8
     },
     "Jawalakhel": {
-      "km": 2.81,
-      "min": 2.9
+      "km": 2.29,
+      "min": 2.8
     },
     "Thamel": {
-      "km": 9.04,
-      "min": 9.5
+      "km": 8.19,
+      "min": 9.0
     },
     "Kalanki": {
-      "km": 7.15,
-      "min": 6.5
+      "km": 7.41,
+      "min": 5.8
     },
     "Chabahil": {
-      "km": 8.66,
-      "min": 8.0
+      "km": 8.64,
+      "min": 7.6
+    },
+    "Kirtipur": {
+      "km": 6.89,
+      "min": 6.8
+    },
+    "Tripureshwor": {
+      "km": 5.74,
+      "min": 5.6
+    },
+    "Lazimpat": {
+      "km": 9.27,
+      "min": 10.2
+    },
+    "Maharajgunj": {
+      "km": 11.51,
+      "min": 10.6
+    },
+    "Balaju": {
+      "km": 12.62,
+      "min": 9.6
     }
   },
   "Kumaripati": {
     "Kupondole": {
-      "km": 2.81,
-      "min": 2.7
+      "km": 2.65,
+      "min": 2.5
     },
     "Maitighar": {
-      "km": 3.93,
-      "min": 4.0
+      "km": 4.45,
+      "min": 4.8
     },
     "Babarmahal": {
-      "km": 5.34,
-      "min": 6.2
+      "km": 5.17,
+      "min": 6.0
     },
     "Tinkune": {
-      "km": 4.13,
-      "min": 5.0
+      "km": 4.96,
+      "min": 5.9
     },
     "Balkumari": {
-      "km": 2.75,
-      "min": 3.8
+      "km": 3.16,
+      "min": 4.6
     },
     "Gwarko": {
-      "km": 1.34,
-      "min": 2.4
+      "km": 0.95,
+      "min": 1.4
     },
     "Koteshwor": {
-      "km": 4.55,
+      "km": 4.63,
       "min": 5.6
     },
-    "Baneshwor": {
-      "km": 3.55,
-      "min": 6.2
+    "New Baneshwor": {
+      "km": 5.4,
+      "min": 7.0
     },
     "Satdobato": {
-      "km": 1.36,
-      "min": 2.0
+      "km": 1.97,
+      "min": 2.9
     },
     "Pulchowk": {
-      "km": 1.96,
-      "min": 1.8
+      "km": 1.64,
+      "min": 1.6
     },
     "Jawalakhel": {
-      "km": 1.04,
-      "min": 1.0
+      "km": 0.75,
+      "min": 0.7
     },
     "Thamel": {
-      "km": 7.13,
-      "min": 8.2
+      "km": 6.05,
+      "min": 6.9
     },
     "Kalanki": {
-      "km": 6.88,
-      "min": 6.1
+      "km": 6.98,
+      "min": 5.4
     },
     "Chabahil": {
-      "km": 8.68,
-      "min": 8.4
+      "km": 8.76,
+      "min": 8.2
+    },
+    "Kirtipur": {
+      "km": 6.46,
+      "min": 6.4
+    },
+    "Tripureshwor": {
+      "km": 3.6,
+      "min": 3.5
+    },
+    "Lazimpat": {
+      "km": 7.13,
+      "min": 8.1
+    },
+    "Maharajgunj": {
+      "km": 10.57,
+      "min": 11.0
+    },
+    "Balaju": {
+      "km": 12.19,
+      "min": 9.2
     }
   },
   "Pulchowk": {
     "Kupondole": {
-      "km": 0.85,
-      "min": 0.8
+      "km": 1.29,
+      "min": 1.3
     },
     "Maitighar": {
-      "km": 1.97,
-      "min": 2.1
+      "km": 3.1,
+      "min": 3.6
     },
     "Babarmahal": {
-      "km": 3.38,
-      "min": 4.3
+      "km": 3.82,
+      "min": 4.8
     },
     "Tinkune": {
-      "km": 5.56,
-      "min": 6.1
-    },
-    "Balkumari": {
-      "km": 4.17,
-      "min": 4.9
-    },
-    "Gwarko": {
-      "km": 3.37,
-      "min": 4.4
-    },
-    "Koteshwor": {
-      "km": 5.97,
-      "min": 6.7
-    },
-    "Baneshwor": {
-      "km": 3.52,
-      "min": 4.5
-    },
-    "Satdobato": {
-      "km": 3.48,
-      "min": 4.2
-    },
-    "Kumaripati": {
-      "km": 2.12,
-      "min": 2.2
-    },
-    "Jawalakhel": {
-      "km": 1.38,
-      "min": 1.5
-    },
-    "Thamel": {
-      "km": 5.17,
+      "km": 5.77,
       "min": 6.4
     },
+    "Balkumari": {
+      "km": 3.56,
+      "min": 5.1
+    },
+    "Gwarko": {
+      "km": 2.27,
+      "min": 2.8
+    },
+    "Koteshwor": {
+      "km": 5.44,
+      "min": 6.1
+    },
+    "New Baneshwor": {
+      "km": 4.05,
+      "min": 5.8
+    },
+    "Satdobato": {
+      "km": 3.5,
+      "min": 3.9
+    },
+    "Kumaripati": {
+      "km": 1.42,
+      "min": 1.4
+    },
+    "Jawalakhel": {
+      "km": 0.72,
+      "min": 0.7
+    },
+    "Thamel": {
+      "km": 4.69,
+      "min": 5.7
+    },
     "Kalanki": {
-      "km": 7.21,
-      "min": 6.6
+      "km": 6.95,
+      "min": 5.4
     },
     "Chabahil": {
-      "km": 6.68,
-      "min": 7.8
+      "km": 7.11,
+      "min": 8.2
+    },
+    "Kirtipur": {
+      "km": 6.43,
+      "min": 6.4
+    },
+    "Tripureshwor": {
+      "km": 2.25,
+      "min": 2.3
+    },
+    "Lazimpat": {
+      "km": 5.78,
+      "min": 6.9
+    },
+    "Maharajgunj": {
+      "km": 9.22,
+      "min": 9.8
+    },
+    "Balaju": {
+      "km": 7.5,
+      "min": 8.2
     }
   },
   "Jawalakhel": {
     "Kupondole": {
-      "km": 1.99,
-      "min": 1.9
+      "km": 1.9,
+      "min": 1.8
     },
     "Maitighar": {
-      "km": 3.1,
-      "min": 3.2
+      "km": 3.71,
+      "min": 4.2
     },
     "Babarmahal": {
-      "km": 4.51,
-      "min": 5.4
+      "km": 4.43,
+      "min": 5.3
     },
     "Tinkune": {
-      "km": 5.14,
-      "min": 5.9
+      "km": 5.79,
+      "min": 6.7
     },
     "Balkumari": {
-      "km": 3.76,
-      "min": 4.6
+      "km": 4.0,
+      "min": 5.4
     },
     "Gwarko": {
-      "km": 2.35,
-      "min": 3.2
+      "km": 1.79,
+      "min": 2.2
     },
     "Koteshwor": {
-      "km": 5.56,
-      "min": 6.4
+      "km": 5.47,
+      "min": 6.3
     },
-    "Baneshwor": {
+    "New Baneshwor": {
       "km": 4.65,
-      "min": 5.6
+      "min": 6.3
     },
     "Satdobato": {
-      "km": 2.46,
-      "min": 3.1
+      "km": 2.78,
+      "min": 3.2
     },
     "Kumaripati": {
-      "km": 1.09,
-      "min": 1.0
+      "km": 0.84,
+      "min": 0.8
     },
     "Pulchowk": {
-      "km": 1.13,
-      "min": 1.1
+      "km": 0.9,
+      "min": 0.9
     },
     "Thamel": {
-      "km": 6.3,
-      "min": 7.5
+      "km": 5.3,
+      "min": 6.2
     },
     "Kalanki": {
-      "km": 5.84,
-      "min": 5.1
+      "km": 6.23,
+      "min": 4.7
     },
     "Chabahil": {
-      "km": 7.82,
-      "min": 8.8
+      "km": 7.72,
+      "min": 8.7
+    },
+    "Kirtipur": {
+      "km": 5.71,
+      "min": 5.7
+    },
+    "Tripureshwor": {
+      "km": 2.86,
+      "min": 2.8
+    },
+    "Lazimpat": {
+      "km": 6.38,
+      "min": 7.4
+    },
+    "Maharajgunj": {
+      "km": 9.82,
+      "min": 10.4
+    },
+    "Balaju": {
+      "km": 11.44,
+      "min": 8.5
     }
   },
   "Thamel": {
     "Kupondole": {
-      "km": 5.03,
-      "min": 6.0
+      "km": 4.08,
+      "min": 4.8
     },
     "Maitighar": {
-      "km": 4.21,
-      "min": 5.5
+      "km": 3.95,
+      "min": 5.3
     },
     "Babarmahal": {
-      "km": 5.62,
-      "min": 7.6
+      "km": 4.66,
+      "min": 6.5
     },
     "Tinkune": {
-      "km": 7.85,
-      "min": 7.8
+      "km": 7.57,
+      "min": 7.6
     },
     "Balkumari": {
-      "km": 9.6,
-      "min": 10.1
+      "km": 9.2,
+      "min": 9.6
     },
     "Gwarko": {
-      "km": 9.04,
-      "min": 10.9
+      "km": 7.52,
+      "min": 8.7
     },
     "Koteshwor": {
-      "km": 9.68,
-      "min": 10.5
+      "km": 9.14,
+      "min": 9.7
     },
-    "Baneshwor": {
-      "km": 5.75,
-      "min": 7.8
+    "New Baneshwor": {
+      "km": 4.84,
+      "min": 7.3
     },
     "Satdobato": {
-      "km": 9.15,
-      "min": 10.7
+      "km": 8.75,
+      "min": 9.8
     },
     "Kumaripati": {
-      "km": 7.79,
-      "min": 8.6
+      "km": 6.67,
+      "min": 7.3
     },
     "Pulchowk": {
-      "km": 6.1,
-      "min": 7.1
+      "km": 5.25,
+      "min": 5.9
     },
     "Jawalakhel": {
-      "km": 7.04,
-      "min": 8.0
+      "km": 5.97,
+      "min": 6.6
     },
     "Kalanki": {
-      "km": 6.37,
-      "min": 6.4
+      "km": 6.88,
+      "min": 6.0
     },
     "Chabahil": {
-      "km": 5.56,
-      "min": 6.3
+      "km": 5.01,
+      "min": 5.4
+    },
+    "Kirtipur": {
+      "km": 6.88,
+      "min": 9.5
+    },
+    "Tripureshwor": {
+      "km": 4.34,
+      "min": 5.1
+    },
+    "Lazimpat": {
+      "km": 1.71,
+      "min": 2.5
+    },
+    "Maharajgunj": {
+      "km": 4.06,
+      "min": 5.6
+    },
+    "Balaju": {
+      "km": 2.86,
+      "min": 3.4
     }
   },
   "Kalanki": {
     "Kupondole": {
-      "km": 5.5,
-      "min": 6.7
+      "km": 4.77,
+      "min": 5.7
     },
     "Maitighar": {
-      "km": 6.3,
+      "km": 6.26,
       "min": 7.8
     },
     "Babarmahal": {
-      "km": 7.71,
-      "min": 10.0
+      "km": 6.98,
+      "min": 9.0
     },
     "Tinkune": {
-      "km": 11.16,
-      "min": 11.4
+      "km": 8.4,
+      "min": 10.7
     },
     "Balkumari": {
-      "km": 9.77,
-      "min": 10.2
+      "km": 9.29,
+      "min": 10.0
     },
     "Gwarko": {
-      "km": 7.97,
-      "min": 8.0
+      "km": 7.08,
+      "min": 6.8
     },
     "Koteshwor": {
-      "km": 11.57,
-      "min": 12.0
+      "km": 10.76,
+      "min": 10.9
     },
-    "Baneshwor": {
-      "km": 7.85,
-      "min": 10.2
+    "New Baneshwor": {
+      "km": 7.21,
+      "min": 10.0
     },
     "Satdobato": {
-      "km": 7.31,
-      "min": 7.6
+      "km": 6.48,
+      "min": 6.0
     },
     "Kumaripati": {
-      "km": 7.11,
-      "min": 6.6
+      "km": 6.13,
+      "min": 5.4
     },
     "Pulchowk": {
-      "km": 5.48,
-      "min": 6.4
+      "km": 4.59,
+      "min": 5.4
     },
     "Jawalakhel": {
-      "km": 6.02,
-      "min": 5.6
+      "km": 5.43,
+      "min": 4.7
     },
     "Thamel": {
-      "km": 6.42,
-      "min": 5.8
+      "km": 7.94,
+      "min": 6.8
     },
     "Chabahil": {
-      "km": 11.45,
-      "min": 10.7
+      "km": 12.53,
+      "min": 11.0
+    },
+    "Kirtipur": {
+      "km": 4.18,
+      "min": 4.3
+    },
+    "Tripureshwor": {
+      "km": 4.73,
+      "min": 6.0
+    },
+    "Lazimpat": {
+      "km": 8.86,
+      "min": 7.5
+    },
+    "Maharajgunj": {
+      "km": 10.74,
+      "min": 10.1
+    },
+    "Balaju": {
+      "km": 7.02,
+      "min": 5.3
     }
   },
   "Chabahil": {
     "Kupondole": {
-      "km": 5.65,
-      "min": 6.6
+      "km": 5.9,
+      "min": 6.8
     },
     "Maitighar": {
-      "km": 4.82,
-      "min": 6.1
+      "km": 5.37,
+      "min": 6.3
     },
     "Babarmahal": {
-      "km": 4.71,
-      "min": 5.8
-    },
-    "Tinkune": {
-      "km": 4.52,
-      "min": 3.3
-    },
-    "Balkumari": {
-      "km": 6.27,
-      "min": 5.6
-    },
-    "Gwarko": {
-      "km": 9.32,
-      "min": 7.9
-    },
-    "Koteshwor": {
-      "km": 6.35,
+      "km": 4.95,
       "min": 6.0
     },
-    "Baneshwor": {
-      "km": 3.48,
-      "min": 3.6
+    "Tinkune": {
+      "km": 5.03,
+      "min": 4.2
+    },
+    "Balkumari": {
+      "km": 6.65,
+      "min": 6.1
+    },
+    "Gwarko": {
+      "km": 8.18,
+      "min": 7.8
+    },
+    "Koteshwor": {
+      "km": 6.59,
+      "min": 6.2
+    },
+    "New Baneshwor": {
+      "km": 3.63,
+      "min": 4.4
     },
     "Satdobato": {
-      "km": 8.65,
-      "min": 7.3
+      "km": 9.29,
+      "min": 8.0
     },
     "Kumaripati": {
-      "km": 9.94,
-      "min": 8.8
+      "km": 10.35,
+      "min": 9.2
     },
     "Pulchowk": {
-      "km": 6.72,
-      "min": 7.7
+      "km": 7.06,
+      "min": 8.0
     },
     "Jawalakhel": {
-      "km": 7.66,
-      "min": 8.6
+      "km": 7.78,
+      "min": 8.7
     },
     "Thamel": {
-      "km": 4.91,
-      "min": 5.6
+      "km": 4.24,
+      "min": 4.6
     },
     "Kalanki": {
-      "km": 10.76,
+      "km": 11.06,
+      "min": 9.8
+    },
+    "Kirtipur": {
+      "km": 11.97,
+      "min": 13.3
+    },
+    "Tripureshwor": {
+      "km": 6.15,
+      "min": 7.2
+    },
+    "Lazimpat": {
+      "km": 5.32,
+      "min": 5.9
+    },
+    "Maharajgunj": {
+      "km": 2.87,
+      "min": 3.0
+    },
+    "Balaju": {
+      "km": 7.04,
+      "min": 7.1
+    }
+  },
+  "Kirtipur": {
+    "Kupondole": {
+      "km": 5.06,
+      "min": 7.2
+    },
+    "Maitighar": {
+      "km": 6.55,
+      "min": 9.3
+    },
+    "Babarmahal": {
+      "km": 7.27,
       "min": 10.5
+    },
+    "Tinkune": {
+      "km": 8.69,
+      "min": 12.2
+    },
+    "Balkumari": {
+      "km": 8.18,
+      "min": 11.6
+    },
+    "Gwarko": {
+      "km": 7.37,
+      "min": 8.4
+    },
+    "Koteshwor": {
+      "km": 11.05,
+      "min": 12.5
+    },
+    "New Baneshwor": {
+      "km": 7.5,
+      "min": 11.5
+    },
+    "Satdobato": {
+      "km": 6.78,
+      "min": 7.6
+    },
+    "Kumaripati": {
+      "km": 6.42,
+      "min": 7.0
+    },
+    "Pulchowk": {
+      "km": 4.89,
+      "min": 6.9
+    },
+    "Jawalakhel": {
+      "km": 5.72,
+      "min": 6.3
+    },
+    "Thamel": {
+      "km": 7.66,
+      "min": 9.5
+    },
+    "Kalanki": {
+      "km": 4.98,
+      "min": 5.1
+    },
+    "Chabahil": {
+      "km": 10.76,
+      "min": 13.3
+    },
+    "Tripureshwor": {
+      "km": 5.03,
+      "min": 7.6
+    },
+    "Lazimpat": {
+      "km": 8.58,
+      "min": 10.2
+    },
+    "Maharajgunj": {
+      "km": 10.93,
+      "min": 13.3
+    },
+    "Balaju": {
+      "km": 10.19,
+      "min": 8.9
+    }
+  },
+  "Tripureshwor": {
+    "Kupondole": {
+      "km": 0.93,
+      "min": 1.0
+    },
+    "Maitighar": {
+      "km": 1.96,
+      "min": 2.6
+    },
+    "Babarmahal": {
+      "km": 2.68,
+      "min": 3.8
+    },
+    "Tinkune": {
+      "km": 4.1,
+      "min": 5.5
+    },
+    "Balkumari": {
+      "km": 4.09,
+      "min": 6.5
+    },
+    "Gwarko": {
+      "km": 4.36,
+      "min": 4.9
+    },
+    "Koteshwor": {
+      "km": 7.53,
+      "min": 8.2
+    },
+    "New Baneshwor": {
+      "km": 2.9,
+      "min": 4.7
+    },
+    "Satdobato": {
+      "km": 5.59,
+      "min": 6.0
+    },
+    "Kumaripati": {
+      "km": 3.51,
+      "min": 3.5
+    },
+    "Pulchowk": {
+      "km": 2.09,
+      "min": 2.1
+    },
+    "Jawalakhel": {
+      "km": 2.81,
+      "min": 2.8
+    },
+    "Thamel": {
+      "km": 2.66,
+      "min": 4.0
+    },
+    "Kalanki": {
+      "km": 5.51,
+      "min": 6.6
+    },
+    "Chabahil": {
+      "km": 5.97,
+      "min": 7.1
+    },
+    "Kirtipur": {
+      "km": 4.99,
+      "min": 7.5
+    },
+    "Lazimpat": {
+      "km": 3.74,
+      "min": 5.1
+    },
+    "Maharajgunj": {
+      "km": 7.18,
+      "min": 8.1
+    },
+    "Balaju": {
+      "km": 5.46,
+      "min": 6.4
+    }
+  },
+  "Lazimpat": {
+    "Kupondole": {
+      "km": 5.17,
+      "min": 6.0
+    },
+    "Maitighar": {
+      "km": 5.03,
+      "min": 6.5
+    },
+    "Babarmahal": {
+      "km": 5.75,
+      "min": 7.6
+    },
+    "Tinkune": {
+      "km": 8.25,
+      "min": 8.4
+    },
+    "Balkumari": {
+      "km": 9.88,
+      "min": 10.4
+    },
+    "Gwarko": {
+      "km": 8.6,
+      "min": 9.9
+    },
+    "Koteshwor": {
+      "km": 9.81,
+      "min": 10.5
+    },
+    "New Baneshwor": {
+      "km": 5.98,
+      "min": 8.5
+    },
+    "Satdobato": {
+      "km": 9.83,
+      "min": 11.0
+    },
+    "Kumaripati": {
+      "km": 7.75,
+      "min": 8.5
+    },
+    "Pulchowk": {
+      "km": 6.33,
+      "min": 7.1
+    },
+    "Jawalakhel": {
+      "km": 7.05,
+      "min": 7.8
+    },
+    "Thamel": {
+      "km": 1.71,
+      "min": 2.4
+    },
+    "Kalanki": {
+      "km": 8.04,
+      "min": 7.5
+    },
+    "Chabahil": {
+      "km": 5.06,
+      "min": 6.2
+    },
+    "Kirtipur": {
+      "km": 8.94,
+      "min": 11.1
+    },
+    "Tripureshwor": {
+      "km": 5.42,
+      "min": 6.3
+    },
+    "Maharajgunj": {
+      "km": 2.77,
+      "min": 4.4
+    },
+    "Balaju": {
+      "km": 4.02,
+      "min": 4.9
+    }
+  },
+  "Maharajgunj": {
+    "Kupondole": {
+      "km": 7.18,
+      "min": 8.1
+    },
+    "Maitighar": {
+      "km": 7.04,
+      "min": 8.6
+    },
+    "Babarmahal": {
+      "km": 7.6,
+      "min": 8.8
+    },
+    "Tinkune": {
+      "km": 7.68,
+      "min": 6.9
+    },
+    "Balkumari": {
+      "km": 9.3,
+      "min": 8.9
+    },
+    "Gwarko": {
+      "km": 10.83,
+      "min": 10.5
+    },
+    "Koteshwor": {
+      "km": 9.24,
+      "min": 9.0
+    },
+    "New Baneshwor": {
+      "km": 6.28,
+      "min": 7.1
+    },
+    "Satdobato": {
+      "km": 11.94,
+      "min": 10.7
+    },
+    "Kumaripati": {
+      "km": 9.76,
+      "min": 10.6
+    },
+    "Pulchowk": {
+      "km": 8.34,
+      "min": 9.2
+    },
+    "Jawalakhel": {
+      "km": 9.06,
+      "min": 10.0
+    },
+    "Thamel": {
+      "km": 5.18,
+      "min": 5.3
+    },
+    "Kalanki": {
+      "km": 9.73,
+      "min": 9.2
+    },
+    "Chabahil": {
+      "km": 2.97,
+      "min": 3.1
+    },
+    "Kirtipur": {
+      "km": 13.91,
+      "min": 13.6
+    },
+    "Tripureshwor": {
+      "km": 7.43,
+      "min": 8.4
+    },
+    "Lazimpat": {
+      "km": 2.77,
+      "min": 4.3
+    },
+    "Balaju": {
+      "km": 4.31,
+      "min": 5.6
+    }
+  },
+  "Balaju": {
+    "Kupondole": {
+      "km": 6.92,
+      "min": 7.3
+    },
+    "Maitighar": {
+      "km": 6.78,
+      "min": 7.8
+    },
+    "Babarmahal": {
+      "km": 7.5,
+      "min": 9.0
+    },
+    "Tinkune": {
+      "km": 10.01,
+      "min": 9.8
+    },
+    "Balkumari": {
+      "km": 11.63,
+      "min": 11.7
+    },
+    "Gwarko": {
+      "km": 10.35,
+      "min": 11.3
+    },
+    "Koteshwor": {
+      "km": 11.57,
+      "min": 11.8
+    },
+    "New Baneshwor": {
+      "km": 7.73,
+      "min": 9.8
+    },
+    "Satdobato": {
+      "km": 12.53,
+      "min": 10.6
+    },
+    "Kumaripati": {
+      "km": 9.51,
+      "min": 9.8
+    },
+    "Pulchowk": {
+      "km": 8.08,
+      "min": 8.4
+    },
+    "Jawalakhel": {
+      "km": 8.81,
+      "min": 9.2
+    },
+    "Thamel": {
+      "km": 2.85,
+      "min": 3.4
+    },
+    "Kalanki": {
+      "km": 6.05,
+      "min": 4.5
+    },
+    "Chabahil": {
+      "km": 7.44,
+      "min": 7.6
+    },
+    "Kirtipur": {
+      "km": 10.23,
+      "min": 8.8
+    },
+    "Tripureshwor": {
+      "km": 7.18,
+      "min": 7.7
+    },
+    "Lazimpat": {
+      "km": 3.77,
+      "min": 4.1
+    },
+    "Maharajgunj": {
+      "km": 4.31,
+      "min": 5.6
     }
   }
 }

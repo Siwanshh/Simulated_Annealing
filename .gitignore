@@ -1,1 +1,31 @@
+# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office lock files
+~$*
+
+# Generated map, rebuilt by main.py on every run.
+# OUTPUT/tsp_graph.json and OUTPUT/tsp_places.json are kept on purpose,
+# so the project runs offline and reproduces the same distances.
+OUTPUT/tsp_map.html

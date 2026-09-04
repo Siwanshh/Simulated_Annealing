@@ -1,12 +1,14 @@
 import json
 import os
+import ssl
 import urllib.parse
 import urllib.request
 
+import certifi
 import folium
 
 from places import PLACES
-
+from tsp import GRAPH_PATH
 
 OSRM_URL = (
     "https://router.project-osrm.org/"
@@ -14,12 +16,15 @@ OSRM_URL = (
     "?overview=full&geometries=geojson"
 )
 
+MAP_PATH = os.path.join(os.path.dirname(GRAPH_PATH), "tsp_map.html")
 
-def draw_tsp_map(route, distance):
+SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
+
+
+def draw_tsp_map(route, distance, path=MAP_PATH):
 
     start = route[0]
 
-    # Coordinates in the order found by SA
     coordinates = ";".join(
         f"{PLACES[city][1]},{PLACES[city][0]}"
         for city in route
@@ -32,10 +37,10 @@ def draw_tsp_map(route, distance):
         )
     )
 
-    # Get actual road geometry from OSRM
     with urllib.request.urlopen(
         url,
-        timeout=30
+        timeout=30,
+        context=SSL_CONTEXT
     ) as response:
         data = json.loads(response.read())
 
@@ -46,13 +51,11 @@ def draw_tsp_map(route, distance):
 
     geometry = data["routes"][0]["geometry"]
 
-    # Create map
     m = folium.Map(
         location=PLACES[start],
         zoom_start=13
     )
 
-    # Draw actual road route
     folium.GeoJson(
         geometry,
         name="SA Route",
@@ -64,7 +67,6 @@ def draw_tsp_map(route, distance):
         tooltip=f"SA distance: {distance:.2f} km"
     ).add_to(m)
 
-    # Add numbered locations
     for i, city in enumerate(route[:-1], start=1):
 
         lat, lon = PLACES[city]
@@ -91,7 +93,6 @@ def draw_tsp_map(route, distance):
             )
         ).add_to(m)
 
-    # Mark starting point
     folium.Marker(
         location=PLACES[start],
         popup=f"START: {start}",
@@ -99,11 +100,8 @@ def draw_tsp_map(route, distance):
         icon=folium.Icon(color="green")
     ).add_to(m)
 
-    os.makedirs(
-        "OUTPUT",
-        exist_ok=True
-    )
+    os.makedirs(os.path.dirname(path), exist_ok=True)
 
-    m.save(
-        "OUTPUT/tsp_map.html"
-    )
+    m.save(path)
+
+    return path

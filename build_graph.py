@@ -1,16 +1,15 @@
 import json
 import os
+import ssl
 import urllib.parse
 import urllib.request
 
+import certifi
+
 from places import PLACES
+from tsp import GRAPH_PATH, PLACES_PATH
 
-
-GRAPH_PATH = os.path.join(
-    os.path.dirname(__file__),
-    "OUTPUT",
-    "tsp_graph.json"
-)
+SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
 
 OSRM_TABLE_URL = (
     "https://router.project-osrm.org/table/v1/driving/"
@@ -21,7 +20,6 @@ OSRM_TABLE_URL = (
 def build_tsp_graph():
     cities = list(PLACES.keys())
 
-    # OSRM expects: lon,lat;lon,lat;...
     coordinates = ";".join(
         f"{lon},{lat}"
         for lat, lon in PLACES.values()
@@ -34,7 +32,7 @@ def build_tsp_graph():
     print("Requesting OSRM distance matrix...")
     print(f"Locations: {len(cities)}")
 
-    with urllib.request.urlopen(url, timeout=30) as response:
+    with urllib.request.urlopen(url, timeout=30, context=SSL_CONTEXT) as response:
         data = json.loads(response.read())
 
     if data.get("code") != "Ok":
@@ -82,6 +80,9 @@ def build_tsp_graph():
             f,
             indent=2
         )
+
+    with open(PLACES_PATH, "w") as f:
+        json.dump(PLACES, f, indent=2)
 
     print(
         f"\nTSP graph saved to:\n{GRAPH_PATH}"

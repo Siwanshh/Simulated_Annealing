@@ -1,48 +1,82 @@
+import matplotlib.pyplot as plt
 
-from simulated_annealing import simulated_annealing
 from draw_map import draw_tsp_map
-from build_graph import GRAPH_PATH, build_tsp_graph
-import os 
+from plots import plot_route, plot_sa_convergence
+from simulated_annealing import run_many
+from tsp import choose_start, load_graph, summarise_runs
+
+SA_RUNS = 30
+INITIAL_TEMPERATURE = 100.0
+COOLING_RATE = 0.995
+MINIMUM_TEMPERATURE = 0.001
+ITERATIONS_PER_TEMPERATURE = 100
 
 
 def main():
+    print("=" * 40)
+    print("Kathmandu TSP")
+    print("Simulated Annealing")
+    print("=" * 40)
+    print()
 
-    start = "Kupondole"
-    
-    if os.path.exists(GRAPH_PATH):
-            print(
-                "The graph has already been created, delete "
-                "OUTPUT/tsp_graph.json first if you want to recreate graph."
-            )
-    else:
-            print("Building the graph...")
-            build_tsp_graph()
-            
+    print("Loading Kathmandu road distances...\n")
+    graph = load_graph()
+    cities = list(graph)
 
-    print("\nStarting SA...")
+    start = choose_start(cities)
+    print("\nStarting location: {}\n".format(start))
 
-    best_route, best_distance, history = simulated_annealing(
-        start=start,
-        initial_temperature=100,
-        cooling_rate=0.995,
-        minimum_temperature=0.001,
-        iterations_per_temperature=100,
-        runs=30
+    print("Simulated Annealing settings")
+    print("  initial temperature        {}".format(INITIAL_TEMPERATURE))
+    print("  cooling rate               {}".format(COOLING_RATE))
+    print("  minimum temperature        {}".format(MINIMUM_TEMPERATURE))
+    print("  iterations per temperature {}".format(ITERATIONS_PER_TEMPERATURE))
+
+    print("\nRunning Simulated Annealing ({} runs)...".format(SA_RUNS))
+
+    results = run_many(
+        graph,
+        start,
+        runs=SA_RUNS,
+        initial_temperature=INITIAL_TEMPERATURE,
+        cooling_rate=COOLING_RATE,
+        minimum_temperature=MINIMUM_TEMPERATURE,
+        iterations_per_temperature=ITERATIONS_PER_TEMPERATURE,
     )
 
-    print("SA finished.")
+    summary = summarise_runs(results)
+    best = summary["best_result"]
 
-    print("\nBest route:")
-    print(" → ".join(best_route))
+    print("\nResults over {} runs".format(SA_RUNS))
+    print("  best       {:.2f} km".format(summary["best"]))
+    print("  average    {:.2f} km".format(summary["average"]))
+    print("  worst      {:.2f} km".format(summary["worst"]))
+    print("  std dev    {:.2f} km".format(summary["std"]))
+    print("  iterations {} per run".format(best["iterations"]))
+    print("  time       {:.2f} sec per run, {:.2f} sec in total".format(
+        summary["average_time"], summary["average_time"] * SA_RUNS
+    ))
 
-    print(f"Total distance: {best_distance:.2f} km")
+    print("\nBest SA route (seed {}):\n".format(best["seed"]))
+    print(" -> ".join(best["route"]))
+    print("\nSA distance: {:.2f} km".format(summary["best"]))
 
     print("\nDrawing map...")
 
-    draw_tsp_map(best_route, best_distance)
+    try:
+        map_path = draw_tsp_map(best["route"], summary["best"])
+        print("Map saved to {}".format(map_path))
+    except Exception as error:
+        print("Map could not be drawn ({}: {})".format(type(error).__name__, error))
 
-    print("Map finished.")
+    print("\nDisplaying visualizations...")
 
+    plot_route(best["route"], summary["best"], start)
+    plot_sa_convergence(best["history"])
+
+    plt.show()
+
+   
 
 if __name__ == "__main__":
     main()
